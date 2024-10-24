@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}

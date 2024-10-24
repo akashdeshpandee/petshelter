@@ -1,0 +1,19 @@
+<html>
+<body>
+<input type="text" onkeyup="keyupfunction()" onkeydown="keydownfunction()" onkeypress="keypressfunction()" id="demo">
+<script>
+function keyupfunction()
+{
+document.getElementById("demo").style.backgroundColor="red";
+}
+function keydownfunction()
+{
+document.getElementById("demo").style.backgroundColor="green";
+}
+function keypressfunction()
+{
+alert("inside input field");
+}
+</script>
+</body>
+</html>
